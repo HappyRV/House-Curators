@@ -1,0 +1,120 @@
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    top: 0px;
+    position: fixed;
+    justify-content: flex-end;
+    background-color: black;
+}
+    
+
+.nav li {
+    display: inline;
+}
+
+.nav li a {
+    color: whitesmoke;
+    padding-right: 3rem;
+}
+
+.logo {
+    padding-top: 2.7rem;
+    display: flexbox;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.logo img {
+    width: 88rem;
+    height: 350px;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.logo span {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: black;
+}
+
+@media only screen and (max-width: 630px) {
+    h1 {
+        font-size: 3rem;
+    }
+    .logo span {
+        font-size: 1.5rem;
+    }
+}
+
+.container {
+    text-align: center;
+    padding-bottom: 5rem;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box img {
+    width: 300px;
+}
+
+.box figure {
+    background-color: lightgray;
+    padding: 3rem;
+}
+
+.box figcaption {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.box span {
+    font-size: 1rem;
+}
+
+/*Team*/
+
+.contacts {
+    background-color: black;
+    padding-bottom: 3rem;
+}
+
+.team {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.person {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.person img {
+    height: 200px;
+}
+
+.person figcaption {
+    color: whitesmoke
+}
+
+.person figcaption a {
+    color: whitesmoke;
+}
+
+.copyright {
+    padding-left: 3rem;
+}
